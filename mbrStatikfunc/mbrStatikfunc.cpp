@@ -34,8 +34,18 @@ void mahasiswa::printAll() {
 }
 
 
-int main()
-{
+int main() {
     
+    mahasiswa mhs1("Sri Dadi");
+    mahasiswa mhs2("Budi Jatmiko");
+    mahasiswa::setNim(9); //mengakses nim melalui static number function "setNim"
+    mahasiswa mhs3("Andi Janu");
+    mahasiswa mhs4("Joko Wahono");
+
+    cout << "akses dari luar object = " << mahasiswa::getNim() << endl; //mengakses nim
+    system("pause");
+
+    return 0;
+
 }
 
