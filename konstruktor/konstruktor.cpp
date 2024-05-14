@@ -40,9 +40,22 @@ void mahasiswa::cetak() {
 }
 
 
-int main()
-{
+int main() {
     
+    mahasiswa mhs1;
+    mahasiswa mhs2("30");
+    mahasiswa mhs3("Ramadhani");
+    mahasiswa mhs4(40, "Novita");
+
+    mhs1.cetak();
+    mhs2.cetak();
+    mhs3.cetak();
+    mhs4.cetak();
+
+    system("Pause");
+
+    return 0;
+
 }
 
 
